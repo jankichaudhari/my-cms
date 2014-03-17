@@ -1,0 +1,233 @@
+.myTaggedListing .jcarousel-container {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.myTaggedListing .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-container-horizontal, .myTaggedListing .jcarousel-container-horizontal {
+    width:  375px;
+    padding: 20px 40px 20px 50px;
+}
+.jcarousel-container-horizontal-hover, .myTaggedListing .jcarousel-container-horizontal-hover{
+    width:  435px;
+    padding: 20px 40px 20px 50px;
+}
+.myTaggedListing .jcarousel-container-horizontal {
+    width:  375px;
+    padding: 20px 40px 20px 50px;
+}
+.myTaggedListing .jcarousel-container-horizontal-hover{
+    width:  435px;
+    padding: 20px 40px 20px 50px;
+}
+.myTaggedListing .jcarousel-clip {
+    overflow: hidden;
+}
+
+.myTaggedListing .jcarousel-clip-horizontal {
+    width:  375px;
+    height: 170px;
+}
+.myTaggedListing .jcarousel-clip-horizontal-hover{
+    width:  435px;
+    height: 170px;
+}
+
+.myTaggedListing .jcarousel-item {
+    width: 118px;
+    height: 170px;
+}
+
+.myTaggedListing .jcarousel-item-hover {
+   	width: 146px;
+    height: 170px;
+}
+.myTaggedListing .details
+{
+	display:none;
+	text-transform:capitalize;
+}
+.myTaggedListing .imgBorder{
+	background: transparent url(../images/taggedbg.gif) no-repeat center center;
+	width: 125px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+}
+.myTaggedListing .imgDiv{
+	height:89px;
+	width:118px;
+	border:1px solid #2D2D2D;
+	background-color:#FFFFFF;
+	color:#2D2D2D;
+}
+.myTaggedListing .imgDivHover{
+	height:110px;
+	width:138px;
+	border:1px solid #2D2D2D;
+	background-color:#FFFFFF;
+	color:#2D2D2D;
+}
+.myTaggedListing .imgLinks{
+	width:120px;
+	height:40px;
+	position:absolute;
+	top:90px;
+}
+.myTaggedListing .imgLinksHover{
+	border:1px solid #2D2D2D;
+	background-color:#9D9D9D;
+	color:#2D2D2D;
+	width:180px;
+	height:50px;
+	margin:-25px 0px 0px -22px;
+	padding-top:50px;
+    position: absolute;
+	top:90px;
+	z-index:2;
+}
+.myTaggedListing .jcarousel-item-horizontal {
+    margin-left: 0px;
+    margin-right: 7px;
+}
+
+.myTaggedListing .jcarousel-item-horizontal-hover{
+    margin-left: 22px;
+    margin-right: 20px;
+}
+
+.myTaggedListing .jcarousel-item-placeholder {
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.myTaggedListing .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/galleryright2.gif) no-repeat 0 0;
+}
+
+.myTaggedListing .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../images/galleryleft2.gif);
+}
+
+.myTaggedListing .jcarousel-next-horizontal:hover,
+.myTaggedListing .jcarousel-next-horizontal:focus {
+   /* background-position: -32px 0;*/
+}
+
+.myTaggedListing .jcarousel-next-horizontal:active {
+   /* background-position: -64px 0;*/
+}
+
+.myTaggedListing .jcarousel-next-disabled-horizontal,
+.myTaggedListing .jcarousel-next-disabled-horizontal:hover,
+.myTaggedListing .jcarousel-next-disabled-horizontal:focus,
+.myTaggedListing .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+   /* background-position: -96px 0;*/
+   background-image: url(../images/galleryright1.gif);
+}
+
+.myTaggedListing .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/galleryleft2.gif) no-repeat 0 0;
+}
+
+.myTaggedListing .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../images/galleryright2.gif);
+}
+
+.myTaggedListing .jcarousel-prev-horizontal:hover,
+.myTaggedListing .jcarousel-prev-horizontal:focus {
+   /* background-position: -32px 0;*/
+}
+
+.myTaggedListing .jcarousel-prev-horizontal:active {
+   /* background-position: -64px 0;*/
+}
+
+.myTaggedListing .jcarousel-prev-disabled-horizontal,
+.myTaggedListing .jcarousel-prev-disabled-horizontal:hover,
+.myTaggedListing .jcarousel-prev-disabled-horizontal:focus,
+.myTaggedListing .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    /*background-position: -96px 0;*/
+	 background-image: url(../images/galleryleft1.gif);
+}
+
+/**
+ *  Vertical Buttons
+ */
+.myTaggedListing .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.gif) no-repeat 0 0;
+}
+
+.myTaggedListing .jcarousel-next-vertical:hover,
+.myTaggedListing .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.myTaggedListing .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.myTaggedListing .jcarousel-next-disabled-vertical,
+.myTaggedListing .jcarousel-next-disabled-vertical:hover,
+.myTaggedListing .jcarousel-next-disabled-vertical:focus,
+.myTaggedListing .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.myTaggedListing .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.gif) no-repeat 0 0;
+}
+
+.myTaggedListing .jcarousel-prev-vertical:hover,
+.myTaggedListing .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+
+.myTaggedListing .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.myTaggedListing .jcarousel-prev-disabled-vertical,
+.myTaggedListing .jcarousel-prev-disabled-vertical:hover,
+.myTaggedListing .jcarousel-prev-disabled-vertical:focus,
+.myTaggedListing .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}

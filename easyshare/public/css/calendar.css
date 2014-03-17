@@ -1,0 +1,103 @@
+/*PHP Calendar StyleSheet*/
+/*body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 3px 0 0 15px;
+	padding: 0;
+  color: #000000;
+}
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+a:hover {
+  color: #0066FF;
+  text-decoration: underline;
+}*/
+.calender_days
+{
+	height:150px;
+}
+.month_title {
+  text-align: center;
+  font-weight:bold;
+  width: 149px;
+  height:20px;
+  padding: 5px 0;
+  border: 1px solid #9D9C9C;
+}
+.month_name {
+  float: left;
+  width: 109px;
+}
+.month_move {
+  float: left;
+  width: 20px;
+}
+.week_day {
+  float: left;
+  width: 20px;
+  margin: 1px;
+  font-size: 8px;
+  background-color: #0D8DEC;
+  color: #2C2C2C;
+  text-align: center;
+  padding: 1px 0;
+}
+.no_day {
+  float:left;
+ /* border: 1px solid #2C2C2C;*/
+  padding: 3px 1px 0px 1px;
+  width: 20px;
+  height: 17px;
+  
+}
+.day, .day_selected, .day_myBooking, .day_notavl, .day_partAvl{
+  float:left;
+  display:inline;
+  width: 18px;
+  height: 17px;
+  border: 1px solid #2C2C2C;
+  background-color: #D6D6D6;
+  padding: 3px 1px 0px 1px;
+  font-family: Arial;
+  font-size:12px;
+  text-align: center;
+}
+.day_selected {
+  background-color:#0D8DEC;
+  color: #000000;
+}
+.day_myBooking{
+	background-color:#d4e9f8;
+	color: #2C2C2C;
+	border:1px solid #0D8DEC;
+}
+.day_partAvl{
+	background-color:#9D9C9C;
+	color: #2C2C2C;
+}
+.day_notavl{
+	background-color:#000000;
+}
+.day A:visited, .day A:link, .day A:hover{
+	color: #2C2C2C;
+	text-decoration: none;
+}
+.day_selected A:visited, .day_selected A:link, .day_selected A:hover{
+	color: #121212;
+	text-decoration: none;
+}
+.day_myBooking A:visited, .day_myBooking A:link, .day_myBooking A:hover{
+	color: #2C2C2C;
+}
+.r {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0; 
+}

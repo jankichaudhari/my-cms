@@ -1,0 +1,27 @@
+/* Hacks to get Mac FF and Safari to comply with CSS ! */
+
+/* Safari hack*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	INPUT {
+		padding: 0px 2px 2px 2px;
+	}
+}
+/* Firefox hack*/
+@-moz-document url-prefix(){
+	INPUT.textField {
+		width: 240px;
+	}
+}
+/* Firefox hack*/
+@-moz-document url-prefix(){
+	INPUT.selectField {
+		width: 160px;
+	}
+}
+/* Firefox hack*/
+@-moz-document url-prefix(){
+	#selectList UL {     
+		margin-top: -18px; 
+	} 
+}
+
